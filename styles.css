@@ -3,24 +3,72 @@ body {
     display: block;
 }
 
+h2 {
+   text-align: center;
+   font-size: 30px;
+   padding-top: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+}
+
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1px;
+	font-size: 15px;
+}
+
+li {
+   font-size: 15px;
+   padding-top: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+}
+
+figcaption {
+   text-align: center;
+   padding-bottom: 15px;
+}
+
+body {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #999;
+}
+  
 p {
+    text-align: center;
+    font-size: 18px;
     padding-top: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     padding-left: 10px;
+}
+
+
+
+.funParagraph{
+   font-size: 18px;
+   color: green;
+}
+
+#mainHeading {
+  color: red;
+  text-align: center;
+  font-size: 36px;
 }
 
 img {
     margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.funParagraph{
-    color: green;
-}
-
-#mainHeading {
-    color: red;
+    margin-bottom: 15px;
+    margin-right: 35px;
+    margin-left: 35px;
 }
