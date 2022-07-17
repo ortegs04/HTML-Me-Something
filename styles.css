@@ -1,1 +1,22 @@
-/* Write your CSS here! */
+#mainHeading {
+    color: red;
+}
+
+.funParagraph{
+    color: yellow;
+}
+
+header h1 {
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+body {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
